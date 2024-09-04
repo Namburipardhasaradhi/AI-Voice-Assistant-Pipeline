@@ -1,7 +1,7 @@
 
 import asyncio
 from Models.faster_whisper_stt_tiny import capture_audio, transcribe_audio  
-from Models.llm_response import generate 
+from Models.llm_response import generate  
 import time
 
 async def main_interaction_loop():
